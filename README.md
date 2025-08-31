@@ -58,6 +58,7 @@ The dataset comes from **MongoDB Atlas Airbnb data**, including details about li
     }
   ]
 }
+``` json
 
 ## Dashboard & App Preview
 - Streamlit App → Interactive maps and charts.
