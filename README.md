@@ -58,3 +58,17 @@ The dataset comes from **MongoDB Atlas Airbnb data**, including details about li
     }
   ]
 }
+
+## Dashboard & App Preview
+- Streamlit App → Interactive maps and charts.
+- Power BI Dashboard → Key insights on pricing, demand, and location trends.
+
+<img width="1159" height="651" alt="image" src="https://github.com/user-attachments/assets/c5255d14-b686-4504-9b2c-21bb250a2d9c" />
+
+## Learning Outcomes
+- **MongoDB Atlas:** Storing and retrieving Airbnb dataset efficiently.
+- **Python EDA:** Data cleaning, transformation, visualization.
+- **Streamlit:** Developing interactive web applications.
+- **Geospatial Analysis:** Mapping Airbnb listings and trends.
+- **Power BI:** Building dashboards for storytelling & decision-making.
+- **End-to-End Project Execution:** From raw data to insights.
