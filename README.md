@@ -88,7 +88,7 @@ The dataset comes from **MongoDB Atlas Airbnb data**, including details about li
    ```env
    MONGO_URI = "your_mongodb_connection_string"
    DB_NAME = "airbnb"
-   COLLECTION_NAME = "listings"
+   COLLECTION_NAME = "airbnb"
 4. Run the Streamlit app:
    ```bash
    streamlit run app.py
