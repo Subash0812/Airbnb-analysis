@@ -73,3 +73,15 @@ The dataset comes from **MongoDB Atlas Airbnb data**, including details about li
 - **Geospatial Analysis:** Mapping Airbnb listings and trends.
 - **Power BI:** Building dashboards for storytelling & decision-making.
 - **End-to-End Project Execution:** From raw data to insights.
+
+# ⚙️ How to Run  
+
+### 🔹 Python & Streamlit App  
+1. Clone this repository:  
+   ```bash
+   git clone https://github.com/your-username/airbnb-analysis.git
+   cd airbnb-analysis ```
+2. Create a virtual environment and install dependencies:
+   ```bash
+   pip install -r requirements.txt ```
+
