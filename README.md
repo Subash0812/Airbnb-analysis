@@ -74,14 +74,25 @@ The dataset comes from **MongoDB Atlas Airbnb data**, including details about li
 - **Power BI:** Building dashboards for storytelling & decision-making.
 - **End-to-End Project Execution:** From raw data to insights.
 
-# ⚙️ How to Run  
+##  How to Run  
 
 ### 🔹 Python & Streamlit App  
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/your-username/airbnb-analysis.git
-   cd airbnb-analysis ```
+   git clone https://github.com/subash0812/Airbnb-analysis.git
+   cd airbnb-analysis
 2. Create a virtual environment and install dependencies:
    ```bash
-   pip install -r requirements.txt ```
+   pip install -r requirements.txt
+3. Configure your MongoDB Atlas connection in a .env file (example below):
+   ```env
+   MONGO_URI = "your_mongodb_connection_string"
+   DB_NAME = "airbnb"
+   COLLECTION_NAME = "listings"
+4. Run the Streamlit app:
+   ```bash
+   streamlit run app.py
+
+## License
+- This project is licensed under the MIT License – you are free to use and adapt it.   
 
