@@ -1,2 +1,60 @@
-# Airbnb-analysis
-This project analyzes Airbnb data using Power BI to uncover insights into pricing trends, seasonal availability, and location-based patterns. The dataset was cleaned, transformed, and visualized into an interactive dashboard, enabling users to explore property types, neighborhoods, and demand variations for better decision-making.
+#  Airbnb Analysis  
+
+##  Project Overview  
+This project analyzes **Airbnb data** using **MongoDB Atlas, Python, Streamlit, and Power BI** to uncover insights into pricing trends, seasonal availability, and location-based patterns.  
+The goal is to build an **end-to-end data pipeline** – from data retrieval and cleaning to interactive dashboards – enabling **data-driven decisions** in the travel and tourism industry.  
+
+---
+
+## Objectives  
+- Establish a **MongoDB Atlas** connection and retrieve Airbnb dataset.  
+- Perform **data cleaning & preprocessing** (handle missing values, duplicates, type conversions).  
+- Conduct **Exploratory Data Analysis (EDA)** using Python Notebook.  
+- Build a **Streamlit web app** for interactive maps and charts.  
+- Perform **geospatial analysis** to explore listing distributions.  
+- Analyze **pricing variations** by location, property type, and season.  
+- Explore **availability patterns** and demand fluctuations.  
+- Create an **interactive Power BI dashboard** to present insights.  
+
+---
+
+##  Skills & Tools  
+- **Programming & Analysis**: Python (Pandas, Matplotlib, Seaborn)  
+- **Database**: MongoDB Atlas (NoSQL data retrieval & queries)  
+- **Visualization**: Streamlit (interactive web app), Power BI (dashboard)  
+- **Domain**: Travel Industry, Property Management, Tourism  
+
+---
+
+## Dataset  
+The dataset comes from **MongoDB Atlas Airbnb data**, including details about listings, hosts, neighborhoods, prices, availability, ratings, and reviews.  
+
+### Example JSON structure:  
+```json
+{
+  "_id": "unique_listing_id",
+  "name": "listing_title",
+  "description": "listing_description",
+  "host_id": "unique_host_id",
+  "host_name": "host_name",
+  "neighbourhood": "neighbourhood_name",
+  "location": {
+    "type": "Point",
+    "coordinates": [longitude, latitude]
+  },
+  "price": "listing_price",
+  "availability": {
+    "start_date": "YYYY-MM-DD",
+    "end_date": "YYYY-MM-DD"
+  },
+  "amenities": ["amenity_1", "amenity_2"],
+  "rating": "average_rating",
+  "reviews": [
+    {
+      "reviewer_id": "unique_reviewer_id",
+      "reviewer_name": "reviewer_name",
+      "comment": "review_comment",
+      "rating": "review_rating"
+    }
+  ]
+}
