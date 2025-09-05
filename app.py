@@ -58,7 +58,7 @@ if not map_df.empty:
 
     st_folium(m, width=700, height=500)
 else:
-    st.warning("⚠️ No valid listings available for the selected filters.")
+    st.warning("No valid listings available for the selected filters.")
 
 # -------------------------
 # Price Analysis
@@ -123,3 +123,4 @@ if not filtered_df.empty and "Review_scores" in filtered_df.columns:
     st.plotly_chart(fig_review, use_container_width=True)
 else:
     st.info("No review score data available for the selected filters.")
+
